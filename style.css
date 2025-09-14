@@ -1,2 +1,31 @@
-
-
+body{
+    /*background-image: linear-gradient(red,yellow);*/
+    height: 100vh;
+    margin: 0px;
+    padding: 0%;
+}
+h1{
+    font-size: medium;
+    color: rgb(0, 0, 0);
+    height: 1vh;
+    align-items: center;
+    margin-top: 4vh;
+}
+p{
+    font-size: large;
+    color: grey;
+    height: 1vh;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin-top: -10vh;
+    height: 0px;
+    width: 20vw;
+    background-color: rgb(171, 13, 145);
+    border-radius: 20px;
+    padding: 2px 5px 2px 5px;
+}
+.books{
+    font-size: 20px;
+}
