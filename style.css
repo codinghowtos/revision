@@ -1,31 +1,46 @@
-body{
-    /*background-image: linear-gradient(red,yellow);*/
-    height: 100vh;
-    margin: 0px;
-    padding: 0%;
-}
-h1{
-    font-size: medium;
-    color: rgb(0, 0, 0);
-    height: 1vh;
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    margin-top: 4vh;
+    height: 100vh;
+    background: #222;
 }
-p{
-    font-size: large;
-    color: grey;
-    height: 1vh;
+
+.container {
+    background: #ffffff83;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #ffffff;
 }
-a{
-    text-decoration: none;
-    color: black;
-    margin-top: -10vh;
-    height: 0px;
-    width: 20vw;
-    background-color: rgb(171, 13, 145);
-    border-radius: 20px;
-    padding: 2px 5px 2px 5px;
+
+#screen {
+    width: 80%;
+    height: 50px;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    text-align: right;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
 }
-.books{
-    font-size: 20px;
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 60px);
+    gap: 10px;
+}
+
+button {
+    font-size: 1.2rem;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background: #555;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #777;
 }
